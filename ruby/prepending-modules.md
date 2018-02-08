@@ -30,3 +30,5 @@ end
 
 SomeClass.ancestors # => [SomeModule, SomeClass, Object, Kernel, BasicObject]
 ```
+
+Note: The actual method lookup described here is simplified and does not mention singleton classes and other internals.
