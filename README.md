@@ -1,6 +1,6 @@
 # Today I Learned
 
-3 TILs and counting…
+4 TILs and counting…
 
 ### Rails
 
@@ -8,6 +8,7 @@
 
 ### Ruby
 
+- [Condition Variables](ruby/condition-variables.md)
 - [GDBM](ruby/gdbm.md)
 - [Prepending Modules](ruby/prepending-modules.md)
 
