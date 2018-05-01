@@ -1,10 +1,11 @@
 # Today I Learned
 
-5 TILs and counting…
+6 TILs and counting…
 
 ### Rails
 
 - [Column Defaults](rails/column-defaults.md)
+- [RSpec::Rails Types](rails/rspec-rails-types.md)
 
 ### Ruby
 
