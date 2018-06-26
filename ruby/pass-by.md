@@ -36,4 +36,4 @@ variable # => 'something else'
 
 Ruby is Pass By Value, but the copied values are actually Object References. That's why changing an object in a method changes it for all variables referencing that Object.
 
-See apeiros' [Gist](https://gist.github.com/apeiros/bf3ddb3d332dc01ac43840e0d08b382d).
+See apeiros' [Gist](https://gist.github.com/apeiros/bf3ddb3d332dc01ac43840e0d08b382d) and Cezar's [blog post](https://mixandgo.com/learn/is-ruby-pass-by-reference-or-pass-by-value).
