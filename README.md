@@ -1,6 +1,6 @@
 # Today I Learned
 
-10 TILs and counting…
+11 TILs and counting…
 
 ### Rails
 
@@ -14,6 +14,7 @@
 
 - [Condition Variables](ruby/condition-variables.md)
 - [Exception Keyword Arguments](ruby/exception-keyword-arguments.md)
+- [Forwardable](ruby/forwardable.md)
 - [GDBM](ruby/gdbm.md)
 - [Pass By](ruby/pass-by.md)
 - [Prepending Modules](ruby/prepending-modules.md)
