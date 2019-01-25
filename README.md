@@ -1,10 +1,11 @@
 # Today I Learned
 
-11 TILs and counting…
+12 TILs and counting…
 
 ### Rails
 
 - [Column Defaults](rails/column-defaults.md)
+- [Headless System Tests](rails/headless-system-tests.md)
 - [Postgres-Backed Enums](rails/postgres-backed-enums.md)
 - [Recyclable Cache Keys](rails/recyclable-cache-keys.md)
 - [RSpec::Rails Types](rails/rspec-rails-types.md)
