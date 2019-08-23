@@ -62,3 +62,15 @@ RSpec.describe 'Project management', type: :system do
   end
 end
 ```
+
+## Using Docker
+
+When using Docker (or rather: using root), Google Chrome won't work as expected and needs the `--no-sandbox` option to properly function:
+
+```ruby
+before do
+  driven_by :selenium, using: :headless_chrome, screen_size: [1400, 1400] do |driver_option|
+    driver_option.add_argument('--no-sandbox')
+  end
+end
+```
