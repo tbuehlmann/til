@@ -1,6 +1,10 @@
 # Today I Learned
 
-12 TILs and counting…
+13 TILs and counting…
+
+### Firefox
+
+- [Dark Mode](firefox/dark-mode.md)
 
 ### Rails
 
