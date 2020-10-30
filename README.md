@@ -1,6 +1,6 @@
 # Today I Learned
 
-13 TILs and counting…
+14 TILs and counting…
 
 ### Firefox
 
@@ -8,6 +8,7 @@
 
 ### Rails
 
+- [Active Record Connection Pool](rails/active-record-connection-pool.md)
 - [Column Defaults](rails/column-defaults.md)
 - [Headless System Tests](rails/headless-system-tests.md)
 - [Postgres-Backed Enums](rails/postgres-backed-enums.md)
