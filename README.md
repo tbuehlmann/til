@@ -1,6 +1,6 @@
 # Today I Learned
 
-14 TILs and counting…
+15 TILs and counting…
 
 ### Firefox
 
@@ -14,6 +14,7 @@
 - [Postgres-Backed Enums](rails/postgres-backed-enums.md)
 - [Recyclable Cache Keys](rails/recyclable-cache-keys.md)
 - [RSpec::Rails Types](rails/rspec-rails-types.md)
+- [Deleting Files after Sending](rails/deleting-files-after-sending.md)
 - [Transactional Tests](rails/transactional-tests.md)
 
 ### Ruby
