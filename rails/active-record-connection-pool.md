@@ -35,7 +35,11 @@ When used in Rails 6.0.3.4, the default Puma thread configuration from config/pu
 
 Sidekiq allows multi-thread job processing. For Sidekiq, the concurrency configuration defines how many "workers" (= threads) will perform jobs. To avoid `ActiveRecord::ConnectionTimeoutError` errors, make sure your Sidekiq concurrency is ≤ your connection pool's size.
 
-In Sidekiq 6.1.2, the concurrency is defined by `ENV["RAILS_MAX_THREADS"]` when present. If it's not present, the fallback is 10 threads (!). This can lead to errors as the connection pool's default size is 5. When using `ENV["RAILS_MAX_THREADS"]`, you shouldn't experience a `ActiveRecord::ConnectionTimeoutError`. So make sure to either have `ENV["RAILS_MAX_THREADS"]` present, use the Sidekiq CLI options (like `bundle exec sidekiq -c 5)`) or have a config/sidekiq.yml with `concurrency: 5`.
+In Sidekiq 6.1.2, the concurrency is defined by `ENV["RAILS_MAX_THREADS"]` when present. If it's not present, the fallback is 10 threads (!). This can lead to errors as the connection pool's default size is 5.
+
+In Sidekiq 7.0.0, the default fallback is 5 threads and matches Rails' default concurrency setting.
+
+When using `ENV["RAILS_MAX_THREADS"]`, you shouldn't experience a `ActiveRecord::ConnectionTimeoutError`. So make sure to either have `ENV["RAILS_MAX_THREADS"]` present, use the Sidekiq CLI options (like `bundle exec sidekiq -c 5)`) or have a config/sidekiq.yml with `concurrency: 5`.
 
 When multiple concurrency settings are present, the most left value has priority:
 
