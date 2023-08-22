@@ -1,6 +1,10 @@
 # Today I Learned
 
-15 TILs and counting…
+16 TILs and counting…
+
+### Debian
+
+- [\*.test Host Resolution](debian/dot-test-host-resolution.md)
 
 ### Firefox
 
