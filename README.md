@@ -1,6 +1,6 @@
 # Today I Learned
 
-16 TILs and counting…
+17 TILs and counting…
 
 ### Debian
 
@@ -29,6 +29,10 @@
 - [GDBM](ruby/gdbm.md)
 - [Pass By](ruby/pass-by.md)
 - [Prepending Modules](ruby/prepending-modules.md)
+
+### Kamal
+
+- [Assets](kamal/assets.md)
 
 ### About
 
