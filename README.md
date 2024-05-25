@@ -1,6 +1,6 @@
 # Today I Learned
 
-18 TILs and counting…
+19 TILs and counting…
 
 ### Debian
 
@@ -15,6 +15,7 @@
 - [Active Record Connection Pool](rails/active-record-connection-pool.md)
 - [Column Defaults](rails/column-defaults.md)
 - [Enqueue after Transaction Commit](rails/enqueue-after-transaction-commit.md)
+- [Gems I Use](rails/gems-i-use.md)
 - [Headless System Tests](rails/headless-system-tests.md)
 - [Postgres-Backed Enums](rails/postgres-backed-enums.md)
 - [Recyclable Cache Keys](rails/recyclable-cache-keys.md)
